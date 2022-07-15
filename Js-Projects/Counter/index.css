@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&family=Montserrat:wght@300&family=Playfair+Display:wght@500&family=Poppins:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background-color: #E8F9FD;
+    text-align: center;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+h1{
+    font-size: 5em;
+}
+button{
+    text-transform: capitalize;
+    margin: 0 1em;
+    font-size: 1em;
+    width: 10em;
+    height: 2.5em;
+    border:.1em #79DAE8 solid;
+    background-color: transparent;
+    transition: all .25s ease-in-out;
+}
+button:hover{
+    background-color: #79DAE8;
+    color: #fff;
+}
