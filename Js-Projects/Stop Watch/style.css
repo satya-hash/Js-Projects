@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:wght@300&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: 'Poppins', sans-serif;
+}
+body{
+     height: 100vh;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+.container{
+     padding: 24px 36px;
+     display: flex;
+     justify-content: center;
+     align-items:center ;
+     flex-direction: column;
+     background-color: #A6D1E6;
+     margin:  10px;
+     text-align: center;
+     border-radius: 10px;
+}
+.container h1{
+     color: #fff;
+     font-size: 32px;
+}
+
+.container .displayTimer{
+     color: rgb(11, 110, 168);
+     font-size: 5em;
+}
+.buttons button{
+     margin: 4px 8px;
+     padding: 8px 24px;
+     font-size: 18px;
+     border-radius: 8px;
+     width: 100%/4;
+     border: 2px solid dodgerblue;
+     transition: all .3s ease;
+}
+.buttons button:hover{
+     background-color: rgb(59, 157, 255);
+     color: #fff;
+}
+
+@media screen and (max-width:768px) {
+     .container .displayTimer{
+          font-size: 48px;
+     }
+     .container h1{
+          font-size: 28px;
+     }
+     .buttons button{
+          font-size: 16px;
+     }
+     .buttons{
+          display: flex;
+          flex-direction: column;
+     }
+}
